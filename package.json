@@ -1,0 +1,19 @@
+{
+  "name": "backend-basic",
+  "version": "1.0.0",
+  "description": "This is the basic backend tutorial.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nwali": "node index.js",
+    "nmwali" : "nodemon index js"
+  },
+  "author": "Raj Chhalotre",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "nodemon": "^3.0.2"
+  }
+}
